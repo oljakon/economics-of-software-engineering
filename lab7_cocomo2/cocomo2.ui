@@ -1,0 +1,965 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1251</width>
+    <height>672</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QGroupBox" name="groupBox_3">
+    <property name="geometry">
+     <rect>
+      <x>872</x>
+      <y>9</y>
+      <width>371</width>
+      <height>241</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>Результаты: модель композиции приложения</string>
+    </property>
+    <layout class="QGridLayout" name="gridLayout">
+     <item row="1" column="1">
+      <widget class="QLabel" name="label_time">
+       <property name="text">
+        <string>0</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="1">
+      <widget class="QLineEdit" name="lineEditSalary">
+       <property name="text">
+        <string>60000</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="0">
+      <widget class="QLabel" name="label_26">
+       <property name="text">
+        <string>Численность команды разработчиков</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="0">
+      <widget class="QLabel" name="label_25">
+       <property name="text">
+        <string>Средняя зарплата</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="1">
+      <widget class="QLabel" name="label_work">
+       <property name="text">
+        <string>0</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="0">
+      <widget class="QLabel" name="label">
+       <property name="text">
+        <string>Трудозатраты</string>
+       </property>
+      </widget>
+     </item>
+     <item row="5" column="0">
+      <widget class="QPushButton" name="pushButtonCalculate">
+       <property name="text">
+        <string>Рассчитать</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="1">
+      <widget class="QLabel" name="label_workers">
+       <property name="text">
+        <string>0</string>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="0">
+      <widget class="QLabel" name="label_27">
+       <property name="text">
+        <string>Бюджет</string>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="1">
+      <widget class="QLabel" name="label_budget">
+       <property name="text">
+        <string>0</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="0">
+      <widget class="QLabel" name="label_14">
+       <property name="text">
+        <string>Длительность</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QTabWidget" name="tabWidgetModels">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>270</y>
+      <width>851</width>
+      <height>351</height>
+     </rect>
+    </property>
+    <property name="currentIndex">
+     <number>1</number>
+    </property>
+    <widget class="QWidget" name="tab">
+     <attribute name="title">
+      <string>Модель композиции приложения</string>
+     </attribute>
+     <layout class="QGridLayout" name="gridLayout_4">
+      <item row="2" column="1">
+       <widget class="QGroupBox" name="groupBox_4">
+        <property name="title">
+         <string>Отчеты</string>
+        </property>
+        <layout class="QGridLayout" name="gridLayout_3">
+         <item row="0" column="0">
+          <widget class="QLabel" name="label_21">
+           <property name="text">
+            <string>Простые</string>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="1">
+          <widget class="QLineEdit" name="lineEditReport_0">
+           <property name="text">
+            <string>0</string>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="0">
+          <widget class="QLabel" name="label_22">
+           <property name="text">
+            <string>Средние</string>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="0">
+          <widget class="QLabel" name="label_23">
+           <property name="text">
+            <string>Сложные</string>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="1">
+          <widget class="QLineEdit" name="lineEditReport_2">
+           <property name="text">
+            <string>0</string>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="1">
+          <widget class="QLineEdit" name="lineEditReport_1">
+           <property name="text">
+            <string>2</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item row="2" column="0">
+       <widget class="QGroupBox" name="groupBox_2">
+        <property name="title">
+         <string>Экранные формы</string>
+        </property>
+        <layout class="QGridLayout" name="gridLayout_2">
+         <item row="0" column="0">
+          <widget class="QLabel" name="label_18">
+           <property name="text">
+            <string>Простые</string>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="1">
+          <widget class="QLineEdit" name="lineEditForms_0">
+           <property name="text">
+            <string>2</string>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="0">
+          <widget class="QLabel" name="label_19">
+           <property name="text">
+            <string>Средние</string>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="1">
+          <widget class="QLineEdit" name="lineEditForms_1">
+           <property name="text">
+            <string>2</string>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="0">
+          <widget class="QLabel" name="label_20">
+           <property name="text">
+            <string>Сложные</string>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="1">
+          <widget class="QLineEdit" name="lineEditForms_2">
+           <property name="text">
+            <string>0</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item row="0" column="1">
+       <widget class="QLineEdit" name="lineEditRUSE">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="0">
+       <widget class="QLabel" name="label_24">
+        <property name="text">
+         <string>Модули на языках 3 поколения</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="0">
+       <widget class="QLabel" name="label_17">
+        <property name="text">
+         <string>Опытность команды/разработчика</string>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="1">
+       <widget class="QLineEdit" name="lineEditLanguages">
+        <property name="text">
+         <string>2</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="0">
+       <widget class="QLabel" name="label_16">
+        <property name="text">
+         <string>RUSE (%)</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="1">
+       <widget class="QComboBox" name="comboBoxXP">
+        <property name="currentIndex">
+         <number>1</number>
+        </property>
+        <item>
+         <property name="text">
+          <string>Очень низкая</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Низкая</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Номинальная</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Высокая</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Очень высокая</string>
+         </property>
+        </item>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+    <widget class="QWidget" name="tab_2">
+     <attribute name="title">
+      <string>Модель ранней разработки архитектуры</string>
+     </attribute>
+     <layout class="QVBoxLayout" name="verticalLayout_2">
+      <item>
+       <layout class="QGridLayout" name="gridLayout_7">
+        <item row="6" column="1">
+         <widget class="QLabel" name="label_43">
+          <property name="text">
+           <string>FCIL (Средства поддержки)</string>
+          </property>
+         </widget>
+        </item>
+        <item row="6" column="2">
+         <widget class="QComboBox" name="archComboBox_6">
+          <property name="currentIndex">
+           <number>2</number>
+          </property>
+          <item>
+           <property name="text">
+            <string>Очень низкий</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Низкий</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Номинальный</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Высокий</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Очень высокий</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Сверхвысокий</string>
+           </property>
+          </item>
+         </widget>
+        </item>
+        <item row="1" column="1">
+         <widget class="QLabel" name="label_38">
+          <property name="text">
+           <string>PERS (Классификация персонала)</string>
+          </property>
+         </widget>
+        </item>
+        <item row="3" column="2">
+         <widget class="QComboBox" name="archComboBox_3">
+          <property name="currentIndex">
+           <number>1</number>
+          </property>
+          <item>
+           <property name="text">
+            <string>Низкий</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Номинальный</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Высокий</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Очень высокий</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Сверхвысокий</string>
+           </property>
+          </item>
+         </widget>
+        </item>
+        <item row="1" column="2">
+         <widget class="QComboBox" name="archComboBox_1">
+          <property name="currentIndex">
+           <number>2</number>
+          </property>
+          <item>
+           <property name="text">
+            <string>Очень низкий</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Низкий</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Номинальный</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Высокий</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Очень высокий</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Сверхвысокий</string>
+           </property>
+          </item>
+         </widget>
+        </item>
+        <item row="2" column="2">
+         <widget class="QComboBox" name="archComboBox_2">
+          <property name="currentIndex">
+           <number>2</number>
+          </property>
+          <item>
+           <property name="text">
+            <string>Очень низкий</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Низкий</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Номинальный</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Высокий</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Очень высокий</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Сверхвысокий</string>
+           </property>
+          </item>
+         </widget>
+        </item>
+        <item row="5" column="2">
+         <widget class="QComboBox" name="archComboBox_5">
+          <property name="currentIndex">
+           <number>2</number>
+          </property>
+          <item>
+           <property name="text">
+            <string>Очень низкий</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Низкий</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Номинальный</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Высокий</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Очень высокий</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Сверхвысокий</string>
+           </property>
+          </item>
+         </widget>
+        </item>
+        <item row="7" column="2">
+         <widget class="QComboBox" name="archComboBox_7">
+          <property name="currentIndex">
+           <number>2</number>
+          </property>
+          <item>
+           <property name="text">
+            <string>Очень низкий</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Низкий</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Номинальный</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Высокий</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Очень высокий</string>
+           </property>
+          </item>
+         </widget>
+        </item>
+        <item row="3" column="1">
+         <widget class="QLabel" name="label_40">
+          <property name="text">
+           <string>RUSE (Повторное использование компонентов)</string>
+          </property>
+         </widget>
+        </item>
+        <item row="4" column="2">
+         <widget class="QComboBox" name="archComboBox_4">
+          <property name="currentIndex">
+           <number>1</number>
+          </property>
+          <item>
+           <property name="text">
+            <string>Низкий</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Номинальный</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Высокий</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Очень высокий</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Сверхвысокий</string>
+           </property>
+          </item>
+         </widget>
+        </item>
+        <item row="7" column="1">
+         <widget class="QLabel" name="label_44">
+          <property name="text">
+           <string>SCED (Требуемые сроки разработки)</string>
+          </property>
+         </widget>
+        </item>
+        <item row="5" column="1">
+         <widget class="QLabel" name="label_42">
+          <property name="text">
+           <string>PREX (Опыт персонала)</string>
+          </property>
+         </widget>
+        </item>
+        <item row="2" column="1">
+         <widget class="QLabel" name="label_39">
+          <property name="text">
+           <string>RCPX (Надежность и сложность разрабатываемой системы)</string>
+          </property>
+         </widget>
+        </item>
+        <item row="4" column="1">
+         <widget class="QLabel" name="label_41">
+          <property name="text">
+           <string>PDIF (Сложность платформы разработки)</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </widget>
+   </widget>
+   <widget class="QGroupBox" name="groupBox_5">
+    <property name="geometry">
+     <rect>
+      <x>870</x>
+      <y>260</y>
+      <width>371</width>
+      <height>242</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>Результаты: модель ранней разработки архитектуры</string>
+    </property>
+    <layout class="QGridLayout" name="gridLayout_5">
+     <item row="2" column="1">
+      <widget class="QLineEdit" name="lineEditSalary_2">
+       <property name="text">
+        <string>60000</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="1">
+      <widget class="QLabel" name="label_time_2">
+       <property name="text">
+        <string>0</string>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="0">
+      <widget class="QLabel" name="label_28">
+       <property name="text">
+        <string>Бюджет</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="0">
+      <widget class="QLabel" name="label_15">
+       <property name="text">
+        <string>Длительность</string>
+       </property>
+      </widget>
+     </item>
+     <item row="5" column="0">
+      <widget class="QPushButton" name="pushButtonCalculate_2">
+       <property name="text">
+        <string>Рассчитать</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="1">
+      <widget class="QLabel" name="label_work_2">
+       <property name="text">
+        <string>0</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="0">
+      <widget class="QLabel" name="label_31">
+       <property name="text">
+        <string>Численность команды разработчиков</string>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="1">
+      <widget class="QLabel" name="label_budget_2">
+       <property name="text">
+        <string>0</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="0">
+      <widget class="QLabel" name="label_29">
+       <property name="text">
+        <string>Средняя зарплата</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="1">
+      <widget class="QLabel" name="label_workers_2">
+       <property name="text">
+        <string>0</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="0">
+      <widget class="QLabel" name="label_30">
+       <property name="text">
+        <string>Трудозатраты</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QLineEdit" name="lineEditLines">
+    <property name="geometry">
+     <rect>
+      <x>1090</x>
+      <y>560</y>
+      <width>113</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>0</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_32">
+    <property name="geometry">
+     <rect>
+      <x>920</x>
+      <y>560</y>
+      <width>161</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Количество строк кода:</string>
+    </property>
+   </widget>
+   <widget class="QGroupBox" name="groupBox_6">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>0</y>
+      <width>851</width>
+      <height>251</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>Факторы, влияющие на показатель степени</string>
+    </property>
+    <widget class="QWidget" name="gridLayoutWidget">
+     <property name="geometry">
+      <rect>
+       <x>12</x>
+       <y>20</y>
+       <width>831</width>
+       <height>231</height>
+      </rect>
+     </property>
+     <layout class="QGridLayout" name="gridLayout_6">
+      <item row="1" column="1">
+       <widget class="QComboBox" name="powComboBox_2">
+        <item>
+         <property name="text">
+          <string>Точный, строгий процесс разработки</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Случайные послабления в процессе</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Некоторые послабления в процессе</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Большей частью согласованный процесс </string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Некоторое согласование процесса</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Заказчик определил только общие цели </string>
+         </property>
+        </item>
+       </widget>
+      </item>
+      <item row="2" column="0">
+       <widget class="QLabel" name="label_35">
+        <property name="text">
+         <string>RESL (Разрешение рисков в архитектуре системы)</string>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="0">
+       <widget class="QLabel" name="label_36">
+        <property name="text">
+         <string>TEAM (Сплоченность команды)</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="0">
+       <widget class="QLabel" name="label_33">
+        <property name="text">
+         <string>PREC (Новизна проекта)</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="1">
+       <widget class="QComboBox" name="powComboBox_1">
+        <item>
+         <property name="text">
+          <string>Полное отсутствие прецедентов, полностью непредсказуемый проект</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Почти полное отсутствие прецедентов, в значительной мере непредсказуемый проект</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Наличие некоторого количества прецедентов</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Общее знакомство с проектом</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Значительное знакомство с проектом</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Полное знакомство с проектом</string>
+         </property>
+        </item>
+       </widget>
+      </item>
+      <item row="3" column="1">
+       <widget class="QComboBox" name="powComboBox_4">
+        <item>
+         <property name="text">
+          <string>Сильно затрудненное взаимодействие</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Несколько затрудненное взаимодействие</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Некоторая согласованность</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Повышенная согласованность</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Высокая согласованность</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Взаимодействие как в едином целом</string>
+         </property>
+        </item>
+       </widget>
+      </item>
+      <item row="2" column="1">
+       <widget class="QComboBox" name="powComboBox_3">
+        <item>
+         <property name="text">
+          <string>Малое (20 %)</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Некоторое (40 %)</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Частое (60 %)</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>В целом (75 %)</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Почти полное (90 %)</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Полное (100%) </string>
+         </property>
+        </item>
+       </widget>
+      </item>
+      <item row="1" column="0">
+       <widget class="QLabel" name="label_34">
+        <property name="text">
+         <string>FLEX (Гибкость процесса разработки)</string>
+        </property>
+       </widget>
+      </item>
+      <item row="4" column="0">
+       <widget class="QLabel" name="label_37">
+        <property name="text">
+         <string>PMAT (Уровень зрелости процесса разработки)</string>
+        </property>
+       </widget>
+      </item>
+      <item row="4" column="1">
+       <widget class="QComboBox" name="powComboBox_5">
+        <item>
+         <property name="text">
+          <string>Уровень 1 СММ</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Уровень 1+ СММ</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Уровень 2 СММ</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Уровень 3 СММ</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Уровень 7 СММ</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Уровень 5 СММ</string>
+         </property>
+        </item>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1251</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
